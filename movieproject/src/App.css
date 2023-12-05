@@ -2,22 +2,30 @@
 
 body{
   background-color: #393939;
-  color: #fff;
+  color: whitesmoke;
+  border:25px solid #4a4a4a;
+  border-radius: 0px;
 }
 
 .movieobject{
   padding: 20px;
   margin: 20px;
   text-align: center;
+  align-items: stretch;
+
 }
 
 .searchbox{
   padding: 10px;
-  margin: 20px;
+  margin: 30px;
   text-align: center;
-  width: 25%;
-  border: 3px solid #000000;
-  border-radius: 5px;
-  background-color: #ffffff;
-  font-family: 'Roboto', sans-serif;
+  width: 20%;
+  border: 3px solid #ffffff;
+  border:5px solid #4a4a4a;
+  background-color: #ffffff;;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  background-color: #202020;
+  
 }

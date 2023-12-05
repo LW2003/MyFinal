@@ -6,7 +6,7 @@ const SearchBox = (props) => {
             <input className='searchbox' 
             value={props.value}
             onChange={(event)=> props.setSearchValue(event.target.value)}
-            placeholder="type to search"></input>
+            placeholder="Enter Media Title Here"></input>
             
         </div>
     );
