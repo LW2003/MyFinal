@@ -10,3 +10,14 @@ body{
   margin: 20px;
   text-align: center;
 }
+
+.searchbox{
+  padding: 10px;
+  margin: 20px;
+  text-align: center;
+  width: 25%;
+  border: 3px solid #000000;
+  border-radius: 5px;
+  background-color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+}
