@@ -4,6 +4,8 @@ import MovieList from './components/MovieList';
 import SearchBox from './components/SeachBox';
 import { useEffect, useState } from 'react';
 
+
+
 const App = () => {
   const [movies, setMovies] = useState([]);
   const [searchValue, setSearchValue] = useState('');
@@ -25,6 +27,7 @@ const App = () => {
   
   return (
   <div>
+      <h1> Movies and Series: </h1>
     <SearchBox searchValue={searchValue} setSearchValue={setSearchValue} />
     <MovieList movies={movies} />
     </div>
