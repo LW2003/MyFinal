@@ -12,6 +12,7 @@ body{
   margin: 20px;
   text-align: center;
   align-items: stretch;
+  
 
 }
 
@@ -27,5 +28,8 @@ body{
   font-size: 20px;
   color: white;
   background-color: #202020;
+  position: absolute;
+  top: 30px;
+  right: 30px;
   
 }
