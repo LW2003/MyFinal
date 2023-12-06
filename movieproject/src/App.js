@@ -2,7 +2,6 @@ import logo from './logo.svg';
 import './App.css';
 import MovieList from './components/MovieList';
 import SearchBox from './components/SeachBox';
-
 import { useEffect, useState } from 'react';
 
 const App = () => {
